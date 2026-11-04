@@ -29,7 +29,7 @@ function SettingsPage() {
         className="card-soft p-6 grid gap-4"
         onSubmit={(e) => {
           e.preventDefault();
-          if (!name.trim()) return toast.error("Name can't be empty");
+          if (!name.trim()) { toast.error("Name can't be empty"); return; }
           setProfile(name.trim(), currency);
           toast.success("Settings saved");
         }}

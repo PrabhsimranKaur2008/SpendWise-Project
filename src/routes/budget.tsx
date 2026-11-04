@@ -35,7 +35,7 @@ function BudgetPage() {
         onSubmit={(e) => {
           e.preventDefault();
           const n = parseFloat(value);
-          if (!(n >= 0)) return toast.error("Enter a valid budget amount");
+          if (!(n >= 0)) { toast.error("Enter a valid budget amount"); return; }
           setBudget(n);
           toast.success("Budget updated");
         }}

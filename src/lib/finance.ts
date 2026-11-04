@@ -25,7 +25,7 @@ export interface Expense {
   amount: number;
   category: Category;
   date: string; // yyyy-mm-dd
-  description?: string;
+  description?: string | undefined;
 }
 export interface Goal {
   id: string;

@@ -39,7 +39,7 @@ function GoalsPage() {
                 onSubmit={(e) => {
                   e.preventDefault();
                   const t = parseFloat(target), s = parseFloat(saved || "0");
-                  if (!name.trim() || !(t > 0) || s < 0) return toast.error("Enter a name and a target above 0");
+                  if (!name.trim() || !(t > 0) || s < 0) { toast.error("Enter a name and a target above 0"); return; }
                   addGoal({ name: name.trim(), target: t, saved: s });
                   setName(""); setTarget(""); setSaved(""); setOpen(false);
                   toast.success("Goal created");
