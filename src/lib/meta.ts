@@ -1,5 +1,5 @@
 export function pageMeta(title: string, description: string) {
-  const t = `${title} | StudentSpend`;
+  const t = `${title} | SpendWise`;
   return {
     meta: [
       { title: t },

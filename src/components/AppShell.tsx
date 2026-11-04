@@ -23,7 +23,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <span className="grid size-9 place-items-center rounded-xl bg-sidebar-primary text-sidebar-primary-foreground">
             <PiggyBank className="size-5" />
           </span>
-          <span className="font-display text-lg font-bold text-sidebar-accent-foreground">StudentSpend</span>
+          <span className="font-display text-lg font-bold text-sidebar-accent-foreground">SpendWise</span>
         </Link>
         <nav className="flex flex-col gap-1">
           {NAV.map(({ to, label, icon: Icon }) => {
@@ -49,7 +49,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <header className="lg:hidden sticky top-0 z-30 flex items-center justify-between bg-sidebar px-4 py-3 text-sidebar-accent-foreground">
         <Link to="/" className="flex items-center gap-2 font-display font-bold">
-          <PiggyBank className="size-5 text-sidebar-primary" /> StudentSpend
+          <PiggyBank className="size-5 text-sidebar-primary" /> SpendWise
         </Link>
         <Link to="/settings" aria-label="Settings"><Settings className="size-5" /></Link>
       </header>
