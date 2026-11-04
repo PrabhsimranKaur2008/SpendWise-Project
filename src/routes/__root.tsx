@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "StudentSpend – Student Expense Tracker" },
+      { title: "SpendWise – Student Expense Tracker" },
       { name: "description", content: "Track daily expenses, budgets and savings goals as a college student." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

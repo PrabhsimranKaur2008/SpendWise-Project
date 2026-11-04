@@ -24,7 +24,7 @@ function SettingsPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
-      <PageHeader title="Settings" subtitle="Personalise StudentSpend." />
+      <PageHeader title="Settings" subtitle="Personalise SpendWise." />
       <form
         className="card-soft p-6 grid gap-4"
         onSubmit={(e) => {
