@@ -12,4 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Build for Netlify (server-rendered routes run as a Netlify Function).
+  // Lovable's own sandbox builds still force their Cloudflare target.
+  nitro: { preset: "netlify" },
 });
