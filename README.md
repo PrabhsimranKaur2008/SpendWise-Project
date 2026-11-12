@@ -138,3 +138,5 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+<img width="684" height="408" alt="image" src="https://github.com/user-attachments/assets/32cd79b0-20ae-4334-9615-d9d55219a34b" />
+
